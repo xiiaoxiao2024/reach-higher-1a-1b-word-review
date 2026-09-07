@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: reach-higher-1a-1b-word-review
+    runtime: static
+    buildCommand: echo "Static task cards ready"
+    staticPublishPath: ./public
